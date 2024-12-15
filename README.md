@@ -52,7 +52,6 @@ The dataset includes information about:
 
 ## Tools and Technologies
 - Power BI
-- DAX
 
 ---
 
@@ -67,6 +66,22 @@ The dataset includes information about:
 **3.Dashboard Development:**
 - A variety of visual charts, including line charts, bar charts, pie charts, and maps, were created to address the specified requirements.
 - Each visualization was designed to present the data in an intuitive and insightful manner, ensuring clarity and ease of interpretation for end users.
+---
+## Few of the DAX Queries Used
+Below are the DAX measures and calculations created for the analysis and visualizations:
+
+1. **Percentage of BEV Vehicles:**
+    % of BEV = [BEV Vehicles] / [Total Vehicles]
+   
+2. **Percentage of PHEV Vehicles:**
+   % of PHEV = [PHEV Vehicles] / [Total Vehicles]
+
+3. **Average Electric Range:**
+   Avg Range = CONCATENATE(FORMAT(AVERAGE(Electric_Vehicle_Population_Data[Electric Range]), "0.00"), " Km")
+
+4. **Total BEV Vehicles:**
+   BEV Vehicles = CALCULATE([Total Vehicles], Electric_Vehicle_Population_Data[Electric Vehicle Type] = "Battery Electric Vehicle (BEV)")
+
 ---
 
 ## Key Observations and Insights
