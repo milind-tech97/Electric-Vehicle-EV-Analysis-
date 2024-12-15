@@ -1,7 +1,7 @@
-# Electric Vehicle  Analysis and Visualization
+# Electric Vehicle Population Analysis and Visualization
 
-This project provides an analysis and visualization of electric vehicle (EV) adoption trends using a comprehensive dataset. 
-The focus is on understanding market size, growth patterns, technological advancements, and consumer preferences in the EV industry.
+This project provides an analysis and visualization of electric vehicle (EV) population and adoption trends using a comprehensive dataset.
+The focus is on understanding adoption growth, geographic distribution, technological advancements, and consumer preferences in the EV industry.
 
 ---
 
